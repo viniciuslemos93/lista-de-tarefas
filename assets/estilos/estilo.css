@@ -4,7 +4,7 @@
 }
 body {
     margin: auto;
-    padding: 10px;
+    padding: 10px;    
 }
 .container {
     text-align: center;
@@ -12,7 +12,8 @@ body {
     min-width: 380px;
     max-width: 800px;
     border: 2px dashed orangered;
-    background-color: aqua;
+    /*background-color: aqua;*/
+    background: linear-gradient(90deg, rgb(57, 189, 138) 0%, rgba(0, 212, 155, 1)100%);
     padding: 10px;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
 }
@@ -26,18 +27,22 @@ body {
 .bloco {
     background-color: white;
     padding: 20px;
-    margin: auto;
+    margin: 20px auto;
     width: 50%;
     border-radius: 5px;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
+    
 }
 .bloco input{
     font-size: 1.2em;
     border-radius: 2px;
-    padding: 5px;    
-    border-radius: 5px;    
+    padding: 5px;
+    border-radius: 5px;
+    border-color: beige;
 }
 input[type=submit] {
     cursor: pointer;
-    background-color: chartreuse;
+    background-color: orangered;
+    color: white;
+    border: none;
 }

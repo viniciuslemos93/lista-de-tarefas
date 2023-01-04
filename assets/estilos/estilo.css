@@ -11,17 +11,18 @@ body {
     margin: auto;
     min-width: 380px;
     max-width: 800px;
-    border: 2px dashed orangered;
-    /*background-color: aqua;*/
+    border: 2px dashed orangered;    
     background: linear-gradient(90deg, rgb(57, 189, 138) 0%, rgba(0, 212, 155, 1)100%);
     padding: 10px;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.535);
 }
 .container h1 {
-    color: orangered;
+    color: white;
     margin-bottom: 10px;
+    background-image: linear-gradient(to right, #155, transparent);
+    border-radius: 5px;
 }
-#add-tarefa {
+#container-tarefas {
     
 }
 .bloco {
@@ -39,10 +40,12 @@ body {
     padding: 5px;
     border-radius: 5px;
     border-color: beige;
+    margin: 10px 10px;
 }
 input[type=submit] {
     cursor: pointer;
     background-color: orangered;
     color: white;
     border: none;
+    margin: 10px 10px;
 }

@@ -23,6 +23,14 @@ body {
     border-radius: 5px;
 }
 #container-tarefas {
+    font-weight: bold;
+    background-color: #155;
+    color: white;
+}
+.cadaTarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .bloco {

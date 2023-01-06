@@ -42,7 +42,7 @@ body {
     border-color: beige;
     margin: 10px 10px;
 }
-input[type=submit] {
+input[type=button] {
     cursor: pointer;
     background-color: orangered;
     color: white;

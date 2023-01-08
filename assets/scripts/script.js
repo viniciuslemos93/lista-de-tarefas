@@ -18,8 +18,8 @@ function inserirNovaTarefa() {
             <div class="cadaTarefa">
             <p class="tarefa">
             ${addTarefa}
-            <p>
-            <input type="button" value="X">
+            </p>            
+            <input type="button" value="X" onclick="removerTarefa ()">
             </div>
             `
 tarefas.insertAdjacentHTML('beforeend', cadaTarefa);
@@ -27,4 +27,7 @@ tarefas.insertAdjacentHTML('beforeend', cadaTarefa);
         novaTarefa.value = ''
         novaTarefa.focus()
     }
+}
+function removerTarefa () {
+    
 }

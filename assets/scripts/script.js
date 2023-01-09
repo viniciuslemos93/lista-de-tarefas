@@ -1,3 +1,4 @@
+const tarefas = window.document.getElementById('container-tarefas')
 function inserirNovaTarefa() {
     const novaTarefa = window.document.getElementById('nova-tarefa')
     const addTarefa = novaTarefa.value
@@ -28,6 +29,13 @@ tarefas.insertAdjacentHTML('beforeend', cadaTarefa);
         novaTarefa.focus()
     }
 }
-function removerTarefa () {
+function concluirTarefa (tarefas) {
     
+
+    
+}
+
+function removerTarefa () {
+    document.getElementsByClassName("cadaTarefa").style.display = "none";
+
 }

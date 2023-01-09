@@ -31,6 +31,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 6px;
     
 }
 .bloco {

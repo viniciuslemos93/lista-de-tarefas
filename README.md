@@ -9,6 +9,7 @@ Projeto utilizando HTML, CSS e JS, na qual é possível o usuário adicionar tar
 [ ] Criar a função para remover tarefas
 
 <hr>
+Deploy: https://viniciuslemos93.github.io/lista-de-tarefas/
 
 ## Aprendizado com o Projeto
 Neste projeto pessoal pude praticar como manipular os elementos DOM da página
